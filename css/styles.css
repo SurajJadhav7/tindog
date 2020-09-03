@@ -1,13 +1,30 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
 }
-
+em {
+    font-size: 1.2rem;
+}
 h1 {
     color: white;
-    font-size: 3.5rem;
+    font-size: 400%;
     line-height: 1.5;
     font-weight: 900;
     padding-bottom: 3rem
+}
+h2 {
+    line-height: 1.5;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 5%;
+}
+h3 {
+    line-height: 1.5;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+p {
+    color: #8f8f8f;
 }
 button {
     font-family: 'Ubuntu', sans-serif;
@@ -15,33 +32,84 @@ button {
 .container-fluid {
     padding: 3% 15% 0;
 }
-.intro {
-    padding: 10% 0 0;
+.carousel-inner {
+    padding: 7% 15% 0;
 }
-.intro-img {
-    padding: 10% 0 0;
+.features {
+    padding: 10%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.features-item {
+    padding: 5%;
+}
+.features-list {
+    text-align: center;
+}
+.icons {
+    color: #ef8172;
+    margin-bottom: 10%;
+}
+.icons:hover {
+    color: #ff4c68;
+}
+.intro {
+    padding: 10% 0 10%;
 }
 .iphone-img {
     width: 60%;
-    margin: auto 20% 0;
     transform: rotate(30deg);
-    overflow: hidden;
+    padding-top: 10%;
 }
 .navbar {
     padding: 0;
 }
 .navbar-brand {
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 400%;
     font-family: 'ubuntu', sans-serif;
 }
 .navbar-nav {
     font-family: ubuntu;
-    font-size: 1.3rem;
+    font-size: 150%;
 }
-.row {
-    margin: 0;
+.press {
+    padding: 7% 16%;
+    background-color: #ff4c68;
+}
+.press-item {
+    margin: 5% auto;
+}
+.press-logo {
+    width: 100%;
+}
+
+#pricing {
+    text-align: center;
+    margin: 7% 15%;
+}
+.pricing-h2 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+.pricing-p {
+    text-align: center;
+    margin-bottom: 3%;
+}
+.pricing-card {
+    margin: 2%;
 }
 .title {
     background-color: #ff4c68;
+}
+.testimonials {
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+}
+.testimonial-image {
+    border-radius: 100%;
+    width: 14%;
+    margin-right: 3%;
 }
