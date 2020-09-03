@@ -30,7 +30,7 @@ button {
     font-family: 'Ubuntu', sans-serif;
 }
 .container-fluid {
-    padding: 3% 15% 0;
+    padding: 3% 15% 7%;
 }
 .carousel-inner {
     padding: 7% 15% 0;
@@ -54,13 +54,11 @@ button {
 .icons:hover {
     color: #ff4c68;
 }
-.intro {
-    padding: 10% 0 10%;
-}
 .iphone-img {
     width: 60%;
     transform: rotate(30deg);
-    padding-top: 10%;
+    position: absolute;
+    left: 20%;
 }
 .navbar {
     padding: 0;
@@ -85,7 +83,7 @@ button {
     width: 100%;
 }
 
-#pricing {
+.pricing {
     text-align: center;
     margin: 7% 15%;
 }
