@@ -15,9 +15,34 @@ button {
 .container-fluid {
     padding: 3% 15% 0;
 }
-.iphone-img {
-    transform: rotate(30deg);
+.intro {
+    padding: 10% 0 0;
 }
-#title {
+.intro-img {
+    margin: 10% 0 0;
+}
+.iphone-img {
+    width: 60%;
+    margin: auto 20% 0;
+    transform: rotate(30deg);
+    overflow: hidden;
+}
+.navbar {
+    padding: 0;
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'ubuntu', sans-serif;
+}
+.navbar-nav {
+    font-family: ubuntu;
+    font-size: 1.3rem;
+}
+.row {
+    margin: 0;
+}
+.title {
     background-color: #ff4c68;
+    height: 100vh;
 }
