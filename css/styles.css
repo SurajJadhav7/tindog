@@ -22,7 +22,7 @@ h3 {
     line-height: 1.5;
     font-size: 1.8rem;
     font-weight: 600;
-} 
+}
 p {
     color: #8f8f8f;
 }
@@ -31,7 +31,7 @@ button {
     margin: 1rem;
 }
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 }
 .carousel-inner {
     padding: 7% 15% 0;
@@ -43,7 +43,6 @@ button {
     color: white;
 }
 #features {
-    padding: 10%;
     background-color: #fff;
     position: relative;
     z-index: 1;
@@ -86,7 +85,6 @@ button {
     font-size: 150%;
 }
 #press {
-    padding: 7% 16%;
     background-color: #ff4c68;
 }
 .press-item {
