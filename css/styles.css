@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
@@ -28,6 +31,7 @@ p {
 }
 button {
     font-family: 'Ubuntu', sans-serif;
+    margin: 1rem;
 }
 .container-fluid {
     padding: 3% 15% 7%;
@@ -35,7 +39,13 @@ button {
 .carousel-inner {
     padding: 7% 15% 0;
 }
-.features {
+#cta {
+    background-color: #ff4c68;
+    padding: 8% 15%;
+    text-align: center;
+    color: white;
+}
+#features {
     padding: 10%;
     background-color: #fff;
     position: relative;
@@ -46,6 +56,12 @@ button {
 }
 .features-list {
     text-align: center;
+}
+#footer {
+    background-color: #fff;
+    padding: 8% 15%;
+    text-align: center;
+    font-size: 120%;
 }
 .icons {
     color: #ef8172;
@@ -72,7 +88,7 @@ button {
     font-family: ubuntu;
     font-size: 150%;
 }
-.press {
+#press {
     padding: 7% 16%;
     background-color: #ff4c68;
 }
@@ -83,7 +99,7 @@ button {
     width: 100%;
 }
 
-.pricing {
+#pricing {
     text-align: center;
     margin: 7% 15%;
 }
@@ -98,10 +114,14 @@ button {
 .pricing-card {
     margin: 2%;
 }
-.title {
+.social {
+    color: black;
+    margin: 1%;
+}
+#title {
     background-color: #ff4c68;
 }
-.testimonials {
+#testimonials {
     background-color: #ff4c68;
     text-align: center;
     color: #fff;
